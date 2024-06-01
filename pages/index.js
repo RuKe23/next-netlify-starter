@@ -5,19 +5,7 @@ import Footer from '@components/Footer'
 export default function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
+      <iframe frameborder="0" src="https://itch.io/embed-upload/10556791?color=000000" allowfullscreen="" width="640" height="380"><a href="https://ru08.itch.io/anti-smoking-campaign">Play anti-smoking campaign on itch.io</a></iframe>
     </div>
   )
 }
